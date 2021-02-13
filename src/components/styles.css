@@ -1,0 +1,54 @@
+nav {
+    padding: 10px;
+    background: #333333;
+    color: #EEEEEE;
+    position: fixed;
+    width: 100%;
+}
+
+nav>ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    margin-right: 2px;
+}
+nav>ul>li{
+    color: white !important;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav>ul>li:hover{
+    transform: scale(1.1);
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main > h1, .main > h2 , .main > p{
+    max-width: 78%;
+    line-height: 1.6;
+    margin: 15px 0px;
+    font-family: 'PT Sans',sans-serif;
+}
+.main > h1 {
+    font-size: 4rem;
+}
+.main > h2 {
+    font-size: 2rem;
+}
+.main > p{
+    text-align: center;
+    font-size: 1.3rem;
+}
