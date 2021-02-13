@@ -2,7 +2,7 @@ nav {
     padding: 10px;
     background: #333333;
     color: #EEEEEE;
-    position: fixed;
+    position: fixed-top;
     width: 100%;
 }
 
@@ -14,8 +14,8 @@ nav>ul{
 }
 nav>ul>li{
     color: white !important;
-    padding: 10px;
     font-size: 20px;
+    margin-right: 20px;
 }
 
 nav>ul>li:hover{
@@ -52,3 +52,48 @@ nav a{
     text-align: center;
     font-size: 1.3rem;
 }
+
+.tut > h1, .tut > h2 , .tut > p{
+    max-width: 78%;
+    line-height: 1.6;
+    margin: 15px 0px;
+    font-family: 'PT Sans',sans-serif;
+}
+
+.tut {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #476F70;
+    color: white;
+    padding: 20px;
+    font: 16px;
+}
+
+.tut > h1 {
+    font-size: 4rem;
+}
+.tut > h2 {
+    font-size: 2rem;
+}
+.tut > p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
