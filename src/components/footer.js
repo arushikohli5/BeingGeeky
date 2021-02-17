@@ -19,6 +19,24 @@ function Footer(){
                 <li>Qwerty Corp</li>
                 <li>ZAQ PVT</li>
             </ul>
-            </div>
-    )
+            <ul>
+                <li className="first">Stack</li>
+                <li> HTML5,CSS,JS</li>
+                <li>React</li>
+                <li>Angular</li>
+                <li>NodeJS</li>
+                <li>Django</li>
+            </ul>
+            <ul>
+                <li className="first">About Being Geeky</li>
+                <li>About CEO</li>
+                <li>About Team</li>
+                <li>Location</li>
+                <li>Working Atmosphere</li>
+                <li>Contact Being Geeky</li>
+            </ul>
+        </div>
+    );
 }
+
+export default Footer;
