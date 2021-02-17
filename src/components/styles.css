@@ -1,5 +1,5 @@
 nav {
-    padding: 10px;
+    padding: 1px;
     background: #333333;
     color: #EEEEEE;
     position: fixed-top;
@@ -10,6 +10,7 @@ nav>ul{
     list-style: none;
     color: white;
     display: flex;
+    margin-top: 10px;
     margin-right: 2px;
 }
 nav>ul>li{
@@ -22,8 +23,11 @@ nav>ul>li:hover{
     transform: scale(1.1);
 }
 nav a{
-    text-decoration: none;
-    color: white;
+        display: inline;
+        text-align: center;
+        padding: 10px 0;
+        color: #eee;
+        text-decoration: none;
 }
 
 
@@ -106,23 +110,7 @@ nav a{
 
 
 
-/*.vedio{
-    
-    padding: 2rem 0;
 
-}
-
-vedio>h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    margin: 32px 0px;
-}
-*/
 .video {
     display: flex;
     flex-direction: column;
@@ -195,7 +183,7 @@ vedio>h3{
     margin-right: 10px;
     font-size: 2rem;
     font-weight: bold;
-    font-family: 'PT Sans',sans-serif
+    font-family: 'PT Sans',sans-serif;
 }
 
 .cumain>a{
@@ -210,17 +198,70 @@ vedio>h3{
 
 
 
+.lect{
+    background: #476F70;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 1.6;
+    font-family: 'PT Sans',sans-serif;
+    padding: 10rem;
+}
+
+.lect>h3{
+    font-size: 2rem;
+}
+
+.lect>p{
+    font-size: 1.3rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.fo{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+    background: #476F70;
+    color: white;
+    font-family: 'PT Sans',sans-serif;
+}
 
 
 
+.fo>ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+}
 
+.fo>ul>li{
+    font: 14px;
+    padding: 5px;
+    color: #C4CCCC;;
+}
 
-
-
-
-
-
-
+.fo .first{
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
+}
 
 
 
